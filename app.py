@@ -46,7 +46,7 @@ if uploaded_file is not None:
 
             col1, col2 = st.columns(2)
             with col1:
-                st.title('Most Busy Users')
+                st.title('Most Active Users')
                 busy_user_df = helper.busy_users(df)
                 st.table(busy_user_df)
 
